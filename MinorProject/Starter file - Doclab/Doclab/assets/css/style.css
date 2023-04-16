@@ -154,6 +154,8 @@ body.nav-active {
   place-items: center;
   z-index: 6;
   transition: var(--transition-1);
+
+  display: none;
 }
 
 .preloader.loaded {
