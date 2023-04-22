@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatbot Demo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="chat-header">
+        <h3>Chat with our bot</h3>
+      </div>
+      <div class="chat-body">
+        <div class="messages"></div>
+      </div>
+      <div class="chat-input">
+        <input
+          type="text"
+          id="chat-input-box"
+          placeholder="Type your message..."
+        />
+        <button type="button" id="send-btn">Send</button>
+      </div>
+    </div>
+
+    <!-- Add links to Python, JavaScript files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js"
+      integrity="sha512-/+J6Kr8tLbJtPCy2ptY05+wCUEjg8zzW9dAgZCtHnONlDp3qJwL90PlzKutMmdsMBlz2LU+iB9acZTcTFrKhwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+    <!-- Add link to Python file -->
+    <script src="http://localhost:5000/socket.io/socket.io.js"></script>
+
+    <!-- Add link to CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </body>
+</html>
